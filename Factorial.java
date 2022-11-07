@@ -10,9 +10,10 @@ public class Factorial
 	  i=n;
 	  while(n>0)
 	  {
-		  fact=fact*n;
+         	  fact=fact*n;
 		  n--;
 	  }
 	  System.out.println("The factorial of "+i+" is "+fact);
+	
   }
 }
