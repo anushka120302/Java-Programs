@@ -15,6 +15,7 @@ public class BasicCalculator
 		System.out.println("Enter the second number");
 		n2=sc.nextDouble();
 		
+		
 		switch(operation)
 		{
 			case '+':
