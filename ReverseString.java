@@ -12,5 +12,6 @@ public class ReverseString
         	temp=temp+(s.charAt(i));
         }
         System.out.println(temp);
+		
 	}
 }
