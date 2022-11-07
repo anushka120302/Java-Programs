@@ -7,16 +7,16 @@ public class ArrList
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the number of the elements to be entered in the array");
 		int n=sc.nextInt();
-        ArrayList<Integer> arli=new ArrayList<Integer>(n);
+        ArrayList<Integer> arl=new ArrayList<Integer>(n);
         for(int i=1;i<=n;i++)
         {
-        	arli.add(sc.nextInt());
+        	arl.add(sc.nextInt());
         }
-        System.out.println(arli);
+        System.out.println(arl);
         System.out.println("Enter the index of the element to be deleted ");
         int x=sc.nextInt();
-        arli.remove(x);
-        System.out.println(arli);
+        arl.remove(x);
+        System.out.println(arl);
 	}
 
 }
