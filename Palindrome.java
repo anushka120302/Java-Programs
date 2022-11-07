@@ -10,7 +10,7 @@ public class Palindrome
 		String temp="";
 		for(int i=n.length()-1;i>=0;i--)
 		{
-			temp=temp+n.charAt(i);
+		    temp=temp+n.charAt(i);
 		}
 		if(temp.equalsIgnoreCase(n))
 		System.out.println("Palindrome String");
