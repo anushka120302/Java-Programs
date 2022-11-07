@@ -41,8 +41,7 @@ public class DiamondPattern
 			}
 			System.out.println();	
 		    sp++;
-		    st=st-2;
-		
+		    st=st-2;	
 	}
-}
+   }
 }
