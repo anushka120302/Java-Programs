@@ -21,5 +21,6 @@ public class PnC
     	 int permutation=factorial(n)/factorial(n-r);
     	 System.out.println("The permutation is "+permutation);
     	 System.out.println("The combination is "+combination);
+	     
      }
 }
