@@ -6,7 +6,7 @@ public class MirrorInverse
 	   for(int i=0; i<ar.length; i++)
 	   {
 		   if(ar[ar[i]] == i)
-			   return true;
+	              return true;
 	   }
 	   return false;
    }
